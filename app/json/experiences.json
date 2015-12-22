@@ -1,0 +1,87 @@
+{
+	"experiences":[
+	{
+		"name":"cgi",
+		"title":"Engineer in Information Technologies at CGI (among the leading independent information technology and business services firms in the world)",
+		"date":"01/2014 - 09/2015",
+		"location":"Bordeaux, France",
+		"tasks":[
+			{
+				"content":"Java development on CMSs (Content Management System)"
+			},
+			{
+				"content":"Contacts with clients."
+			},
+			{
+				"content":"Projects in an Agile environment."
+			}
+		],
+		"achievements":[
+			{
+				"content":"Development on Liferay 6.2 and Jahia 6: JEE (Java Enterprise Edition) based CMS (Content Management System) for big clients. My mission was mostly to develop portlets using Java, JSP, JQuery, JavaScript libraries (such as DataTables, Bootstrap, Validate …) and CSS to answer our clients’ needs."
+			},
+			{
+				"content":"Integration of a BPMN (Business Process Model and Notation), Bonita 6, into a Liferay web portal."
+			},
+			{
+				"content":"Content resemption of websites into Jahia."
+			},
+			{
+				"content":"Jahia developement of websites with JQuery, CSS, HTML 5 and Java."
+			}
+		]
+
+	},
+	{
+		"name":"orange",
+		"title":"Developer and management help at Orange (French telecommunication leader company)",
+		"date":"09/2011 – 09/2013",
+		"location":"Bordeaux, France",
+		"tasks":[
+			{
+				"content":"Development of PHP web apps "
+			},
+			{
+				"content":"Management backup for a team of 4 people"
+			}
+		],
+		"achievements":[
+			{
+				"content":"Websites development of internal use for incident tracking with Flex and PHP technologies using Bootstrap, MySQL"
+			},
+			{
+				"content":"Management help of 4 people."
+			},
+			{
+				"content":"Application administration of an incident tracking tool."
+			},
+			{
+				"content":"Presentations and training for 1 to 10 people on the developed websites."
+			}
+		]
+
+	},{
+		"name":"sabena",
+		"title":"Developer at Sabena Technics (Aeronautics company)",
+		"date":"06/2011 – 07/2011",
+		"location":"Bordeaux, France",
+		"tasks":[
+			{
+				"content":"Excel VBA tool conception for a project monitoring panel"
+			}
+		],
+		"achievements":[
+			{
+				"content":"Interview with the main users (5 people) to establish the needs and understand the technical environment."
+			},
+			{
+				"content":"VBA development of the Excel file."
+			},
+			{
+				"content":"User guide redaction."
+			}
+		]
+
+	}
+	]
+}

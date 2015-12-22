@@ -1,0 +1,48 @@
+/* app css stylesheet */
+
+html body{
+	font-family: "raleway";
+	padding-top: 70px;
+}
+
+#presentation h1, #content h1 {
+	color: #0099FF;
+}
+
+
+.en-tete{
+	/*padding: 50px;*/
+	text-align: center;
+}
+.en-tete .paralax{
+	height: 380px;
+	background: url("images/content-back.jpg") no-repeat center center;
+}
+
+.paralax {
+	font-weight: 500;
+	font-style: "normal";	
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: -1;
+}
+#intro .paralax{
+	height: 250px; /*same height as jumbotron */
+	background: url("images/intro-back2.jpg");
+
+}
+
+#intro .jumbotron {
+	height: 250px;
+	color: black;
+	text-shadow: #444 0 1px 1px;
+	background:transparent;
+}
+.en-tete .content {
+	height: 350px;
+	color: black;
+	text-shadow: #444 0 1px 1px;
+	background:transparent;
+}

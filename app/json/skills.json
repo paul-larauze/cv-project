@@ -1,0 +1,37 @@
+{
+	"skills":[
+	{
+		"name":"itskills",
+		"title":"IT Skills",
+		"content":[{
+			"title":"Language",
+			"content":"JAVA | HTML | JQUERY | ANGULARJS"
+			},
+			{
+			"title":"Database",
+			"content":"MySql | Postgres | SQL Language"
+			},
+			{
+			"title":"IDE",
+			"content":"Eclipse, Sublime Text"
+			},{
+			"title":"Project sharing",
+			"content":"SVN | Github"
+			}
+		]
+		},
+		{
+		"name":"language",
+		"title":"Language Skills",
+		"content":[
+			{
+			"title":"French",
+			"content":"Native speaker"
+			},
+			{
+			"title":"English",
+			"content":"Fluent (TOEIC: 980)" 
+		}]
+	}]
+
+}

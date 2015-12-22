@@ -1,0 +1,16 @@
+{
+	"studies":[
+	{
+		"name":"miage",
+		"title":"Master’s degree MIAGE (Information System Management)",
+		"location":"University of Bordeaux, France",
+		"date":"09/2010– 10/2013"
+	},
+	{
+		"name":"stid",
+		"title":"Advanced diploma: STID (Statistics and Computing), ",
+		"location":"University of Pau et les Pays de l’Adour, France ",
+		"date":"09/2007 – 09/2010"
+	}
+	]
+}

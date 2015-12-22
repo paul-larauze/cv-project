@@ -1,0 +1,115 @@
+
+
+	<div id="content">
+	<div class="en-tete">
+		<div class="paralax"></div>
+		<div class="container content">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="images/skills.jpg" width="140" height="140" class="img-circle">
+					<h2>Skills</h2>
+					<p>The programmation languages I use, the languages I speak</p>
+					<button onclick="showDiv('skills')" class="btn btn-default">View details »</button>
+				</div>
+				<div class="col-md-3">
+					<img src="images/work-exp.gif" width="140" height="140" class="img-circle">
+					<h2>Work Experience</h2>
+					<p>The professional experiences I have had these last few years</p>
+					<button onclick="showDiv('work-exp')" class="btn btn-default">View details »</button>
+				</div>
+				<div class="col-md-3">
+					<img src="images/aesa_overview.png" width="140" height="140" class="img-circle">
+					<h2>Studies</h2>
+					<p>The studies that made me discover the pleasure of coding and much more</p>
+					<button onclick="showDiv('studies')" class="btn btn-default">View details »</button>
+				</div>
+				<div class="col-md-3">
+					<img src="images/hobbies.jpg" width="140" height="140" class="img-circle">
+					<h2>Hobbies</h2>
+					<p>The things that I like to do :)</p>
+					<button onclick="showDiv('hobbies')" class="btn btn-default">View details »</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container" ng-controller="ContentCtrl">
+		<div id="skills">
+			<h1 class="page-header">Skills</h1>
+			<div ng-repeat="x in myskills">
+				<h2><span class="label label-primary">{{x.title}}</span></h2>	
+				<div class="panel-body" ng-repeat="y in x.content">
+					<div class="row">
+						<div class="col-md-6">
+							{{y.title}}
+						</div>
+						<div class="col-md-6">
+							{{y.content}}
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div id="work-exp">
+			<h1 class="page-header">Work Experience</h1>
+			<div class="page-header" ng-repeat="x in experiences">
+				<h2>{{x.title}}</h2>
+				<h3>Tasks</h3>
+				<ul class="list-group">
+					<div ng-repeat="y in x.tasks">
+						<li class="list-group-item">{{y.content}}</li>
+					</div>
+				</ul>
+				<h3>Achievements</h3>
+				<ul class="list-group">
+					<div ng-repeat="y in x.achievements">
+						<li class="list-group-item">{{y.content}}</li>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<div id="studies">
+			<h1  class="page-header">Studies</h1>
+			<div  class="page-header" ng-repeat="x in studies">
+				<h2>{{x.title}}</h2>
+				<strong>{{x.date}}<strong>
+				{{x.location}}
+			</div>
+		</div>
+		<div id="hobbies">
+			<h1>Hobbies</h1>
+			Squash, tennis, wakeboarding, snowboarding and travels.
+		</div>
+	</div>	
+</div>
+
+<script type="text/javascript" >
+$(document).ready(function(){
+	hideDiv();
+});
+
+
+function hideDiv(){
+	$('#skills').hide();
+	$('#work-exp').hide();
+	$('#studies').hide();
+	$('#hobbies').hide();
+}
+function showDiv(idDiv){
+	hideDiv();
+	console.log('#' + idDiv);
+	$('#' + idDiv).slideDown();
+}
+
+var jumboHeight = $('.paralax').outerHeight();
+function parallax(){
+	var scrolled = $(window).scrollTop();
+	$('.paralax').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+	parallax();
+});
+</script>
