@@ -14,7 +14,5 @@ angular.module('myApp.presentation', ['ngRoute'])
     $scope.presentation = data;
     
   });
-    $scope.isActive = function (viewLocation) { 
-        return viewLocation === $location.path();
-    };
+    
   });

@@ -21,7 +21,5 @@ angular.module('myApp.content', ['ngRoute'])
     $scope.studies = data.studies;
     
   });
-    $scope.isActive = function (viewLocation) { 
-        return viewLocation === $location.path();
-    };
+    
   });
